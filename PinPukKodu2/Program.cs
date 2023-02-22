@@ -33,6 +33,11 @@
                         else break;
                     }
                 }
+                if (girilenPin == pinKodu || girilenPuk == pukKodu)
+                {
+                    Console.WriteLine("Telefon açılıyor...");
+                    break;
+                }
             }
         }
     }
