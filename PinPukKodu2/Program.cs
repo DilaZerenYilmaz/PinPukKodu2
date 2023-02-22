@@ -11,6 +11,9 @@
                 Console.Write("Pin kodunu giriniz: ");
                 girilenPin = int.Parse(Console.ReadLine());
 
+                if (girilenPin != pinKodu && i != 1) Console.WriteLine("Pin kodu yanlış girildi. {0} hakkınız kaldı.", i - 1);
+
+
             }
         }
     }
