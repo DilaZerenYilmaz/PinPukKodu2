@@ -13,7 +13,10 @@
 
                 if (girilenPin != pinKodu && i != 1) Console.WriteLine("Pin kodu yanlış girildi. {0} hakkınız kaldı.", i - 1);
 
-
+                else if (girilenPin != pinKodu && i == 1)
+                {
+                    Console.WriteLine("Pin kodunuz bloke oldu.");
+                }
             }
         }
     }
