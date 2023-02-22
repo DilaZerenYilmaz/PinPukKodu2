@@ -30,6 +30,7 @@
                             Console.WriteLine("Hattınız bloke oldu. Lütfen müşteri hizmetleri ile görüşün.");
                             break;
                         }
+                        else break;
                     }
                 }
             }
