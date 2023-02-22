@@ -20,6 +20,11 @@
                     for (int j = 10; j >= 1; j--)
                     {
                         Console.Write("Puk kodunu giriniz: ");
+                        girilenPuk = int.Parse(Console.ReadLine());
+                        if (girilenPuk != pukKodu && j != 1)
+                        {
+                            Console.WriteLine("Puk kodu yanlış girildi. {0} hakkınız kaldı.", j - 1);
+                        }
                     }
                 }
             }
