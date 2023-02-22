@@ -16,6 +16,11 @@
                 else if (girilenPin != pinKodu && i == 1)
                 {
                     Console.WriteLine("Pin kodunuz bloke oldu.");
+
+                    for (int j = 10; j >= 1; j--)
+                    {
+                        Console.Write("Puk kodunu giriniz: ");
+                    }
                 }
             }
         }
