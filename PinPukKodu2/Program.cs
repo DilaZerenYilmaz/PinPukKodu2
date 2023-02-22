@@ -25,6 +25,11 @@
                         {
                             Console.WriteLine("Puk kodu yanlış girildi. {0} hakkınız kaldı.", j - 1);
                         }
+                        else if (girilenPuk != pukKodu && j == 1)
+                        {
+                            Console.WriteLine("Hattınız bloke oldu. Lütfen müşteri hizmetleri ile görüşün.");
+                            break;
+                        }
                     }
                 }
             }
